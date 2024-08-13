@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+/* Navbar css start */
+header {
+    width: 100%;
+    background: url(banner.png) center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.navbar .navbar-brand img {
+
+    width: 140px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    margin-left: 12px;
+    position: relative;
+    transition: 0.3s;
+}
+.navbar .nav-item .active{
+    border-bottom: 2px solid #008ed6;
+}
+.nav-link::after {
+    content: url();
+    width: 0%;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #008ed6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: 0.3s linear;
+}
+/* Banner part css start */
+.banner-section .row .col-lg-6 {
+    margin-top: 75px;
+
+}
+
+.cus-height {
+    height: 90vh;
+}
+
+.banner-section .content h5 {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    /* letter-spacing: ; */
+}
+
+.banner-section .content h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner-section .content p {
+    color: #fff;
+    line-height: 26px;
+    width: 83%;
+    margin-top: 20px;
+    margin-bottom: 58px;
+}
+
+.banner-section .banner-btn a {
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.banner-section .banner-btn .btn-primary {
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+
+.banner-section .banner-btn .btn-primary:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.7s;
+}
+
+.banner-section .banner-btn .btn-info {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.banner-section .banner-btn .btn-info:hover {
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    color: #fff;
+    transition: 0.7s;
+}
+
+/* feature-section css */
+
+.feature-section {
+    width: 100%;
+    padding: 50px 0px;
+    border-bottom: 1px solid #999999;
+}
+
+.feature-section h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.feature-section h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.feature-section .underline {
+    width: 80px;
+    margin: 30px auto 50px;
+    background: #008ed6;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.feature-section:hover .underline {
+    width: 150px;
+    margin: 30px auto 50px;
+    background: #008ed6;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+}
+
+.inner-content i {
+    font-size: 30px;
+    color: #008ed6;
+    width: 88px;
+    height: 88px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    padding-top: 26px;
+    margin-bottom: 20px;
+}
+
+.inner-content h5 {
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.inner-content p {
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.feature-section .inner-content {
+    margin: 0px 20px;
+}
+
+/* product section start */
+.product-section {
+    width: 100%;
+    padding: 70px 0px 20px;
+}
+
+.cus-align {
+    text-align: center;
+}
+
+.product-section .content-right h6 {
+    margin-top: 55px;
+}
+
+.product-section .content-right h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+
+}
+
+.product-section .content-right h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.product-section .content-right p {
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 88%;
+
+}
+
+.product-section .content-right .underline {
+    width: 80px;
+    margin: 25px 0px;
+    background: #008ed6;
+    height: 2px;
+    transition: 0.7s;
+
+}
+
+.product-section:hover .content-right .underline {
+    width: 150px;
+    margin: 25px 0px;
+    background: #008ed6;
+    height: 2px;
+    transition: 0.7s;
+
+}
+
+.product-section .inner ul {
+    margin: 30px 0px 0px;
+    padding: 0px;
+}
+
+.product-section .inner ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.product-section .inner i {
+    font-size: 18px;
+    color: #008ed6;
+    margin-bottom: 10px;
+}
+
+.product-section .inner span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    color: #1a1a1a;
+    margin-left: 5px;
+}
+
+/* customize section css */
+.customize-section {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 30px 0px 50px;
+}
+
+.c-aligns .lc img {
+    text-align: left;
+    width: 100%;
+}
+
+.customize-section .rc h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding-top: 105px;
+}
+
+.customize-section .rc h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.customize-section .rc .underline {
+    width: 80px;
+    margin: 25px 0px;
+    background: #008ed6;
+    height: 3px;
+    transition: 0.7s;
+}
+
+.customize-section:hover .rc .underline {
+    width: 150px;
+    margin: 25px 0px;
+    transition: 0.7s;
+
+}
+
+.customize-section .rc p {
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 88%;
+}
+
+/* Testimonial section css */
+.testimonial-section {
+    width: 100%;
+    background: url(test.png) center center no-repeat;
+    background-size: cover;
+}
+
+.testimonial-section h6 {
+    color: #008ed6;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0px 0px;
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+.testimonial-section h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    /* padding: 0px 0px 50px; */
+}
+
+.testimonial-section .underlinex {
+    width: 80px;
+    margin: 30px auto 50px;
+    background: #008ed6;
+    position: relative;
+    height: 2px;
+    transition: 0.7s;
+
+}
+
+.testimonial-section:hover .underlinex {
+    width: 150px;
+    margin: 30px auto 50px;
+    transition: 0.7s;
+
+}
+
+.testimonial-section .owl-carousel .item p {
+    width: 76%;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: 150;
+    color: white;
+}
+
+.owl-carousel .item .intro {
+    display: flex;
+}
+
+.owl-carousel .item .intro .profile {
+    margin-right: 15px;
+}
+
+.owl-carousel .item .intro .profile img {
+    width: 55px;
+}
+
+.owl-carousel .item .intro .desi {}
+
+.owl-carousel .item .intro .desi h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+
+/* like section css */
+.like-section {
+    width: 100%;
+    height: 20vh;
+    background-color: #1a1a1a;
+}
+
+.like-section .likesec-btn .btn-info {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    color: white;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 9px 14px;
+    transition: 0.7s;
+}
+
+.like-section h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+.like-section .likesec-btn .btn-info:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.7s;
+}
+
+.like-section .likesec-btn .btn-primary {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 9px 18px;
+    transition: 0.7s;
+}
+
+.like-section .likesec-btn .btn-primary:hover {
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    color: #fff;
+}
+
+.likesec-btn {
+    padding-left: 130px;
+}
+
+/* pricing section css */
+.pricing-section {
+    width: 100%;
+    height: 99vh;
+}
+
+.pricing-section h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding-top: 50px;
+}
+
+.pricing-section h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.pricing-section .underline {
+    width: 80px;
+    margin: 25px auto 0px;
+    background: #008ed6;
+    height: 3px;
+    transition: 0.7s;
+}
+
+.pricing-section:hover .underline {
+    width: 150px;
+    transition: 0.7s;
+
+}
+
+.p-cart {
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding-bottom: 43px;
+    margin: 70px 0px 50px;
+}
+
+.p-cart .head h3 {
+    padding: 25px 22px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700 ;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 0;
+}
+
+.p-cart .body-cart {
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0;
+    padding: 0;
+}
+
+.p-cart .body-cart h4 {
+    padding-top: 20px;
+    font-size: 40px;
+    margin: 0px;
+    font-weight: 700;
+    !important
+}
+
+.p-cart .foot-cart p {
+    padding: 0px 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.p-cart .foot-cart p a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #578bd1;
+    transition: 0.7s;
+}
+
+.p-cart .body-cart p {
+    padding: 0px 0px 15px;
+    transition: 0.7s;
+
+}
+
+.order-btn a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #dfdfdf;
+    color: #578bd1;
+    padding: 12px 35px;
+    transition: 0.7s;
+}
+
+.p-cart:hover .order-btn a {
+    background-color: #008ed6;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.p-cart:hover .body-cart {
+    background-color: #008ed6;
+    transition: 0.7s;
+}
+
+.p-cart:hover .head h3 {
+    color: #008ed6;
+    transition: 0.7s;
+}
+
+.p-cart:hover .body-cart h4 {
+    color: #fff;
+    transition: 0.7s;
+}
+
+
+.p-cart:hover .body-cart p {
+    color: #fff;
+    transition: 0.7s;
+}
+
+.p-cart:hover .order-btn a {
+    background-color: #008ed6;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.p-cart .body-cart {
+    transition: 0.7s;
+}
+
+.p-cart .head h3 {
+
+    transition: 0.7s;
+}
+
+.p-cart .body-cart h4 {
+    transition: 0.7s;
+}
+
+
+.p-cart .body-cart p {
+    transition: 0.7s;
+}
+/* contact section css */
+.contact-section{
+    width: 100%;
+    background-color: #ededed;
+
+}
+
+.contact-section h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding-top: 50px;
+}
+
+.contact-section h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact-section .underlinex {
+    width: 80px;
+    margin: 25px auto 40px;
+    background: #008ed6;
+    height: 3px;
+    transition: 0.7s;
+    padding: 0;
+}
+
+.contact-section:hover .underlinex {
+    width: 150px;
+    margin: 25px auto 40px;
+    transition: 0.7s;
+}
+.contact-section .icon i{
+    font-size: 29px;
+    color: #578bd1;
+    padding-bottom: 15px
+}
+.contact-section .icon p{
+    width: 45%;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.contact-box{
+        position: relative;
+        left: 0;
+        top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #15141a;
+        padding: 69px 30px;
+        width: 64%;
+        text-align: end;
+        z-index: 1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    margin-left: -14px;
+}
+.formX input{
+ padding: 14px 10px;
+ margin-bottom: 25px;
+ width: 100%;
+ background-color: #15141a;
+border: 1px solid #999999;
+border-radius: 4px;
+}
+.formXX input{
+    padding: 14px 10px;
+    width: 100%;
+    background-color: #15141a;
+border: 1px solid #999999;
+border-radius: 4px;
+}
+.formXx input{
+    padding: 10px 10px 178px;
+    /* height: 26vh; */
+    width: 100%;
+    background-color: #15141a;
+border: 1px solid #999999;
+border-radius: 4px;
+}
+.formXx input::placeholder{
+    align-items: flex-start;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c4c4c4;
+}
+.formXx input:focus{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+.formXX input::placeholder{
+    align-items: flex-start;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c4c4c4;
+}
+.formXX input:focus{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+.formX input::placeholder{
+    align-items: flex-start;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c4c4c4;
+}
+.formX input:focus{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+.s-btn a{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #008ed6;
+    border: 2px solid #008ed6;
+    border-radius: 4px;
+    margin: 0px 12px 0px 0px;
+    transition: 0.4s;
+}
+
+.s-btn a:hover{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-left: 170px;
+    transition: 0.4s;
+}
+/* section map css */
+
+.section-map iframe{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* footer section css */
+.footer-section{
+width: 100%;
+background-color: #15141a;
+padding: 20px 0px;
+height: 22vh;
+}
+.footer-section i{
+font-size: 20px;
+margin-right: 20px;
+transition: 0.5s;
+color: #7e7e7e;
+padding-top: 23px;
+}
+.footer-section i:hover{
+color: #008ed6;
+transition: 0.5s;
+}
+.footer-section p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;  
+    padding-bottom: 20px;
+}
